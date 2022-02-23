@@ -2,7 +2,6 @@
 """
 Created on Sat Mar  6 20:54:33 2021
 
-@author: mfusco
 """
 import multiprocessing as mp
 import os
@@ -25,7 +24,7 @@ import pyALD
 NUM_VALVES = 16
 STOP = False
 P_STOP = False
-LOG_FILEPATH = 'C:\\Users\\mfusc\\Documents\\ALD Sequencer\\LogFiles\\sequencerLog_'
+LOG_FILEPATH = r'C:\tmp\LogFiles'
 VALVE_INTERLOCKS = [[1,2,3],[2,7,15]]
 
 def listener_log_configurer():

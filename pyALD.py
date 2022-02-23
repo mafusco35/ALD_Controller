@@ -2,7 +2,6 @@
 """
 Created on Wed Mar 17 20:31:59 2021
 
-@author: mfusc
 """
 import tkinter as tk
 from tkinter import font, filedialog
